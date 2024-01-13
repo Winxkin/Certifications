@@ -1,0 +1,11 @@
+matplotlib
+cPython
+numpy
+onnx==1.5.0
+pycuda
+pandas
+firebase
+protobuf
+opencv-contrib-python
+zalo-python-sdk
+requests==2.20.1

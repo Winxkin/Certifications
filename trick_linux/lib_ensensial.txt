@@ -1,0 +1,15 @@
+sudo apt install libfreetype6-dev
+sudo apt install virtualenv
+sudo apt-get install build-essential
+sudo apt-get install build-essential python-dev python-setuptools libboost-python-dev libboost-thread-dev -y
+
+----python-----------
+pip install matplotlib
+pip3 install onnx==1.5.0 (version nay oke)
+
+-install pycuda:
+
+	export CUDA_HOME=/usr/local/cuda
+	export CPATH=${CUDA_HOME}/include:${CPATH}
+	export LIBRARY_PATH=${CUDA_HOME}/lib64:$LIBRARY_PATH
+	pip install pycuda

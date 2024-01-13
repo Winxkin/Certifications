@@ -1,0 +1,7 @@
+Note:
+export OPENBLAS_CORETYPE=ARMV8 (fixing error core duplex)
+python3 tools/yolo_to_onnx.py --cfg ../model_yolov4/yolov4-tiny-custom.cfg --weights ../model_yolov4/yolov4-tiny-custom_best.weights --out ../model_yolov4/yolov4.onnx
+
+
+
+/usr/lib/x86_64-linux-gnu/qt5/bin$ ./designer

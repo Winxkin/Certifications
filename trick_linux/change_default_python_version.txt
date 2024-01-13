@@ -1,0 +1,10 @@
+link prefer: https://unix.stackexchange.com/questions/496461/how-to-make-python3-7-default
+
+option 1: edit .bashrc add in the line 
+
+	alias python3=python3.7
+ 
+option 2: change priority of 2 version python
+
+	sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+	sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2

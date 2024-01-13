@@ -1,0 +1,5 @@
+Setup virtualenv:
+$virtualenv -p /usr/bin/python3 env
+
+Exit virtualenv:
+(env) $deactivate

@@ -1,0 +1,2 @@
+Conneting wifi:
+	$sudo nmcli dev wifi connect "network-ssid" password "network-password"
