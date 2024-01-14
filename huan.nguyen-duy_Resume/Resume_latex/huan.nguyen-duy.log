@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.27)  14 JAN 2024 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.27)  14 JAN 2024 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,17 +867,16 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 139.
-(huan.nguyen-duy.out) (huan.nguyen-duy.out)
 \@outlinefile=\write4
 \openout4 = `huan.nguyen-duy.out'.
 
 \c@lstlisting=\count351
- (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks51
 \inpenc@posthook=\toks52
 )
-<logo.jpg, id=74, 1907.125pt x 1907.125pt>
+<logo.jpg, id=42, 1907.125pt x 1907.125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 146.
@@ -912,6 +911,168 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [2]
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Missing number, treated as zero.
+<to be read again> 
+                   a
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: You already have nine parameters.
+\reserved@a ... \def \expandafter e\reserved@b #10
+                                                  a{
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I'm going to ignore the # sign you just used,
+as well as the token that followed it.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Missing } inserted.
+<inserted text> 
+                }
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Missing } inserted.
+<inserted text> 
+                }
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Misplaced \crcr.
+\endarray ->\crcr 
+                  \egroup \egroup \@arrayright \gdef \@preamble {}
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Extra }, or forgotten $.
+\endarray ->\crcr \egroup 
+                          \egroup \@arrayright \gdef \@preamble {}
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:407: Extra }, or forgotten $.
+\endarray ->\crcr \egroup \egroup 
+                                  \@arrayright \gdef \@preamble {}
+l.407     \\
+             {\href{https://scholar.google.com/citations?user=_MLGtqEAAAAJ&;...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Missing number, treated as zero.
+<to be read again> 
+                   a
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: You already have nine parameters.
+\reserved@a ... \def \expandafter e\reserved@b #10
+                                                  a{
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I'm going to ignore the # sign you just used,
+as well as the token that followed it.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Missing } inserted.
+<inserted text> 
+                }
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Missing } inserted.
+<inserted text> 
+                }
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Misplaced \crcr.
+\endarray ->\crcr 
+                  \egroup \egroup \@arrayright \gdef \@preamble {}
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Extra }, or forgotten $.
+\endarray ->\crcr \egroup 
+                          \egroup \@arrayright \gdef \@preamble {}
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex:415: Extra }, or forgotten $.
+\endarray ->\crcr \egroup \egroup 
+                                  \@arrayright \gdef \@preamble {}
+l.415     \\
+             {\href{https://scholar.google.co.kr/citations?user=t_abZ6kAAAAJ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -922,21 +1083,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `huan.nguyen-duy.out' has not changed.
-(rerunfilecheck)             Checksum: 366009C684F37EE03B1C79154B4AED77;929.
+
+
+Package rerunfilecheck Warning: File `huan.nguyen-duy.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `huan.nguyen-duy.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FF2095657B58456C09DDAF32ADC854D9;679.
  ) 
 Here is how much of TeX's memory you used:
- 29827 strings out of 475248
- 595744 string characters out of 5757812
+ 29814 strings out of 475248
+ 595434 string characters out of 5757812
  1947785 words of memory out of 5000000
- 50785 multiletter control sequences out of 15000+600000
- 603442 words of font info for 83 fonts, out of 8000000 for 9000
+ 50776 multiletter control sequences out of 15000+600000
+ 606608 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,11n,99p,500b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1728.pk><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on huan.nguyen-duy.pdf (3 pages, 770022 bytes).
+Output written on huan.nguyen-duy.pdf (3 pages, 766688 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
