@@ -1,1 +1,0 @@
-https://github.com/AlexeyAB/darknet/wiki/CFG-Parameters-in-the-different-layers
