@@ -220,16 +220,22 @@
         QEMU project was developed by C/Cpp programing and several opensource libraries to emulate RCAR chip series, we implemented all modules in SOC chip (RCAR series) base on hardware specifications which were provided by IC design teams.
         The ouputs of QEMU project were RCAR chip platform software series that had operations similar to real RCAR chip series (developed by IC design teams). These ouputs can called Virtual-Platform.}
   \\ {**Fundamental knowledges: modeling techniques, C/Cpp programing, Makefile.}
-  \\ {[1] Module RS-CANFD : Investigating hardware specification of RS-CANFD module, preparing environment and Integrating the design of this module to virtual platform. After that, planning to create test case to verify all operations.}
+  \\ {[1] Model RS-CANFD : Investigating hardware specification of RS-CANFD model, preparing environment and Integrating the design of this model to virtual platform. After that, planning to create test cases to verify all operations.}
   \item {Model base design | RCAR development project}\hfill
   \\ {***Customer: Renesas Design Vietnam Co., Ltd., Ho Chi Minh City.}
   \\ {**Bief project: RCAR development project aims the simulation for RCAR chip (development by Renesas Design Vietnam), it uses mainly systemC framework to simulate accurate operations of RCAR chip base on hardware specifications which were provided by IC design teams.
         RCAR project objective provide for customer the virtual platform of SOC chip with high accurate.}
   \\ {**Fundamental knowledges: modeling techniques, systemC framework, C/Cpp programing, Makefile.}
-  \\ {[1] VSP2 module (Video Signal Processor) : Investigating hardware specification provided by IC design teams and updating some registers which were changed compare with last specification version.}
-  \\ {[2] SHIP-M-AES submodule (Security Advanced Encryption Standard): Investigating hardware specification provided by IC design teams, Responsibility for design dummys, preparing environment to verify AES module. Creating test case to verify full opeartion of AES submodule.}
-  \\ {[3] CRAC-SM4B submodule (Security Advanced Encryption Standard of china): Investigating hardware specification provided by IC design teams, Responsibility for design dummys, preparing environment to verify SM4 submodule. Creating test case to verify full opeartion of SM4 submodule.}
-  \\ {[4] CRAC-KEYRAM submodule (memory module): Investigating hardware specification provided by IC design teams, Planning to design KEYRAM module adapt to new version of hardware specification, which include architecture design, unit design, and coding design.}
+  \\ {[1] VSP2 model (Video Signal Processor) : Investigating hardware specification provided by IC design teams and updating some registers which were changed compare with last specification version.}
+  \\ {[2] SHIP-M-AES submodel (Security Advanced Encryption Standard): Investigating hardware specification provided by IC design teams, Responsibility for design dummys, preparing environment to verify AES moduel. Creating test cases to verify full opeartion of AES submodel.}
+  \\ {[3] CRAC-SM4B submodel (Security Advanced Encryption Standard of china): Investigating hardware specification provided by IC design teams, Responsibility for design dummys, preparing environment to verify SM4 submodel. Creating test cases to verify full opeartion of SM4 submodel.}
+  \\ {[4] CRAC-KEYRAM submodel (Memory component): Investigating hardware specification provided by IC design teams, Planning to design KEYRAM model adapt to new version of hardware specification, which include architecture design, unit design, and coding design.}
+  \item {Model base design | QEMU integration project}\hfill
+  \\ {***Customer: Renesas Design Vietnam Co., Ltd., Ho Chi Minh City.}
+  \\ {**Bief project: QEMU integration project objective integrates all models of QEMU development project and RCAR development project, this project creates both emulation and simulation for SOC platform. 
+        The goal of project is integration all components from RCAR development team and QEMU development team and verifing operations of system by integration test.}
+  \\ {**Fundamental knowledges: modeling techniques, systemC framework, C/Cpp programing, Makefile, CMakeList.}
+  \\ {[1] Integrating WCRC model: Preparing environment to integrate WCRC model (recived from RCAR development team), Investigating hardware specification, creating test patterns to verity the SOC system.}
   % \item {More work done } .....
   \resumeItemListEnd
   
