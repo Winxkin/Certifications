@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705235238.0738 "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" "huan.nguyen-duy.pdf" "huan.nguyen-duy" 1705235240.03262 0
+["pdflatex"] 1705238701.76209 "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" "huan.nguyen-duy.pdf" "huan.nguyen-duy" 1705238703.55215 0
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1705210546.06617 95611 34add898aaca6255d422e9898d621594 ""
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/eccc1200.pk" 1705210311.85517 30576 33e91ff833319bd26aa3abed6b1d1701 ""
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrb1000.pk" 1705210310.13846 23092 e8673d3ca46936b96fa06c6fc00465f2 ""
@@ -26,7 +26,6 @@
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecti1000.tfm" 993062320 2840 5606e1a681c23005308de9d61c09a8ff ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cfr-lm/clmbx2j8t10.tfm" 1274885264 12764 8484df1d7246828dd27e354798a3363c ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cfr-lm/clmr2j8t10.tfm" 1274885272 12748 c45ca9bac8e29a65384a9d884d7c129f ""
-  "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cfr-lm/clmr2j8t12.tfm" 1274885272 12760 1bea3f70d37912f83f6e04fadd25c5c0 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cfr-lm/dd-lmbx10.tfm" 1274885178 1184 c0b4f9706a7b87471dd5582b731a0014 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cfr-lm/lmbx8ttl10.tfm" 1274885174 1468 68324f0fb25c1d1589ab576768cfa8b5 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -233,9 +232,9 @@
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" 1705235237.25715 11551 0fa2f40083159ca62adf2539a32c905d ""
-  "huan.nguyen-duy.aux" 1705235239.63433 1444 3699f83c26dbefaf55f8a89479d0f34b "pdflatex"
-  "huan.nguyen-duy.out" 1705235239.6363 929 366009c684f37ee03b1c79154b4aed77 "pdflatex"
+  "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" 1705238698.91843 14338 a2c1a0d544a2c45c5360a8374c573d0d ""
+  "huan.nguyen-duy.aux" 1705238703.20945 1444 cb4953672052b5934058c8a1165860ab "pdflatex"
+  "huan.nguyen-duy.out" 1705238703.21145 929 366009c684f37ee03b1c79154b4aed77 "pdflatex"
   "logo.jpg" 1703594134.6729 629593 7526a2772c94d02fd246e3a4ffda760b ""
   (generated)
   "huan.nguyen-duy.aux"
