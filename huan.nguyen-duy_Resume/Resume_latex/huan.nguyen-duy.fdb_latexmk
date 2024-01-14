@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705240795.80671 "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" "huan.nguyen-duy.pdf" "huan.nguyen-duy" 1705240797.80673 0
+["pdflatex"] 1705242059.62951 "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" "huan.nguyen-duy.pdf" "huan.nguyen-duy" 1705242061.67225 0
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1705210546.06617 95611 34add898aaca6255d422e9898d621594 ""
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/eccc1200.pk" 1705210311.85517 30576 33e91ff833319bd26aa3abed6b1d1701 ""
   "C:/Users/huan2/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrb1000.pk" 1705210310.13846 23092 e8673d3ca46936b96fa06c6fc00465f2 ""
@@ -237,9 +237,9 @@
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/huan2/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" 1705240796.33791 16080 8483caa0ad7b5d0eb06e23d694594064 ""
-  "huan.nguyen-duy.aux" 1705240797.40363 1444 cb4953672052b5934058c8a1165860ab "pdflatex"
-  "huan.nguyen-duy.out" 1705240797.40563 929 366009c684f37ee03b1c79154b4aed77 "pdflatex"
+  "d:/Git/Data_huan.nguyen-duy/huan.nguyen-duy_Resume/Resume_latex/huan.nguyen-duy.tex" 1705242059.42091 17525 d514c2f6aaafa25e022ca10e947557d9 ""
+  "huan.nguyen-duy.aux" 1705242061.26954 1444 823fb70891b8b04d89a43a1e9eceeb12 "pdflatex"
+  "huan.nguyen-duy.out" 1705242061.27054 929 366009c684f37ee03b1c79154b4aed77 "pdflatex"
   "logo.jpg" 1703594134.6729 629593 7526a2772c94d02fd246e3a4ffda760b ""
   (generated)
   "huan.nguyen-duy.aux"
