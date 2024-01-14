@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.27)  14 JAN 2024 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.27)  14 JAN 2024 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,40 +779,40 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.1.0'
 )) (huan.nguyen-duy.aux)
 \openout1 = `huan.nguyen-duy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 141.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 141.
+LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 139.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 139.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 141.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 139.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 141.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 139.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 141.
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 141.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 139.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count345
@@ -866,7 +866,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 141.
+Package hyperref Info: Link coloring OFF on input line 139.
 (huan.nguyen-duy.out) (huan.nguyen-duy.out)
 \@outlinefile=\write4
 \openout4 = `huan.nguyen-duy.out'.
@@ -880,20 +880,20 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 <logo.jpg, id=74, 1907.125pt x 1907.125pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 148.
+Package pdftex.def Info: logo.jpg  used on input line 146.
 (pdftex.def)             Requested size: 56.9055pt x 56.89117pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 148.
+(Font)              <10.95> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 148.
+(Font)              <8> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 148.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 148.
+(Font)              <6> on input line 146.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 146.
  (C:\Users\huan2\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/clm2j/b/n' in size <10> not available
-(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 191.
+(Font)              Font shape `T1/clm2j/bx/n' tried instead on input line 189.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -902,26 +902,32 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/huan2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cfr-lm/t1-clm.enc} <./logo.jpg>] (huan.nguyen-duy.aux)
+{C:/Users/huan2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cfr-lm/t1-clm.enc} <./logo.jpg>]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (huan.nguyen-duy.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `huan.nguyen-duy.out' has not changed.
-(rerunfilecheck)             Checksum: 0ACB3D527FCD67016147A00B20FD0F40;881.
+(rerunfilecheck)             Checksum: 366009C684F37EE03B1C79154B4AED77;929.
  ) 
 Here is how much of TeX's memory you used:
- 29816 strings out of 475248
- 595643 string characters out of 5757812
- 1954785 words of memory out of 5000000
- 50780 multiletter control sequences out of 15000+600000
- 599730 words of font info for 79 fonts, out of 8000000 for 9000
+ 29819 strings out of 475248
+ 595674 string characters out of 5757812
+ 1951785 words of memory out of 5000000
+ 50781 multiletter control sequences out of 15000+600000
+ 602896 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,11n,99p,500b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,99p,500b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1000.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\huan2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1728.pk><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/huan2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb>
-Output written on huan.nguyen-duy.pdf (1 page, 750661 bytes).
+Output written on huan.nguyen-duy.pdf (2 pages, 758841 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
