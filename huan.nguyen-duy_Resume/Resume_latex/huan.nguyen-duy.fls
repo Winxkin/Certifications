@@ -396,6 +396,10 @@ INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\vf\public\cfr-lm\clmbx2
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cfr-lm\lmbx8ttl10.tfm
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cfr-lm\dd-lmbx10.tfm
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cfr-lm\t1-clm.enc
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr9.tfm
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi9.tfm
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy9.tfm
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy9.tfm
 INPUT huan.nguyen-duy.aux
 INPUT .\huan.nguyen-duy.out
 INPUT .\huan.nguyen-duy.out
@@ -421,3 +425,5 @@ INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
 INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
+INPUT C:\Users\huan2\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
