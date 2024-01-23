@@ -1,0 +1,152 @@
+% mẫu latex dùng cho đồ án 1, đồ án 2, và luận văn tốt nghiệp
+% trường đại học sư phạm kỹ thuật tp hcm
+% khoa điện điện tử
+% bộ môn máy tính - viễn thông
+% template được xây dựng lại dựa trên https://github.com/thanhhungqb/thesis-template
+% mọi thắc mắc liên hệ: TS. Huỳnh Thế Thiện
+\documentclass[a4paper, oneside]{book}
+\usepackage[fontsize=13pt]{scrextend}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage[vietnamese,english]{babel} 
+
+\usepackage[
+singlelinecheck=false % <-- important
+]{caption}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage[hidelinks]{hyperref}
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{algorithm2e}
+\usepackage{hmcutethesis}
+
+% {\fontsize{20}{1}\selectfont \textbf{\parbox[c][3cm]{0.9\linewidth}{ \centering \@tname }}} \\[1cm]
+
+\ctname{\textbf{HƯỚNG DẪN TRÌNH BÀY BÁO CÁO KHÓA LUẬN}} 
+\cmjname{\textbf{NGÀNH: ĐIỆN TỬ VIỄN THÔNG - 8520208}}
+\cstuname{\textbf{HỌ TÊN HỌC VIÊN}} % với nhóm 2 sinh viên
+% \cstuname{\textbf{TÊN SINH VIÊN} \\[3pt] MSSV: XXXXXXXX} % với nhóm 1 sinh viên
+\csSupervise{TS. NGUYỄN VĂN A}
+\cttime{06/2023}
+
+
+
+\thesislayout
+\setstretch{1.5}
+
+\begin{document}
+%-	Bìa cứng - màu xanh dương, chữ mạ vàng (xem mẫu đính kèm)
+%-	Trang tên (tờ lót): chất liệu giấy, nội dung giống như bìa LV
+%-	Ở gáy LV: in nhan đề LV (có thể in tóm tắt nếu nhan đề quá dài), size 15 – 17
+%-	Phiếu Nhiệm vụ LV, chấm điểm Hướng dẫn & Phản biện (đã ký): nhận từ GVHD & GVPB sau khi bảo vệ (theo lịch hẹn).
+%-	Lời cam đoan
+%-	Lời cảm ơn/ Lời ngỏ
+%-	Tóm tắt LV
+%-	Mục lục
+%-	Danh mục, bảng biểu, hình ảnh, ... (nếu có)
+%-	Nội dung LV
+%-	Danh mục TL tham khảo
+%-	Phụ lục (nếu có)
+\coverpage
+\frontmatter
+
+
+% lời cảm ơn ================================================
+\begin{acknowledgments}
+	Trong quá trình tự mình hoàn thành đồ án môn học 1/2 (hoặc đồ án tốt nghiệp) với đề tài, tôi đã nhận được rất nhiều sự tư vấn và lời khuyên từ Thầy Cô... Tôi xin chân thành cảm ơn!
+\begin{table}[!h]
+\centering
+\begin{tabular}{p{3cm} p{3cm} p{3cm} p{3cm}}
+&  & \multicolumn{2}{c}{Nhóm thực hiện đồ án tốt nghiệp} \\
+&  & \multicolumn{2}{c}{\textit{(Ký và ghi rõ họ tên)}} \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  & \multicolumn{2}{c}{Nguyễn Văn B}     
+\end{tabular}
+\end{table}
+\end{acknowledgments}
+
+% lời cam đoan ================================================
+\begin{declaration}
+	Nhóm thực hiện đồ án tốt nghiệp cam đoan đề tài thực hiện dựa vào một số tài liệu trước đó và không sao chép nội dung, kết quả của đồ án khác. Các nội dung tham khảo đã được trích dẫn đầy đủ.
+ \\
+\begin{table}[!h]
+\centering
+\begin{tabular}{p{3cm} p{3cm} p{3cm} p{3cm}}
+&  & \multicolumn{2}{c}{Nhóm thực hiện đồ án tốt nghiệp} \\
+&  & \multicolumn{2}{c}{\textit{(Ký và ghi rõ họ tên)}} \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  &             &            \\
+&  & \multicolumn{2}{c}{Nguyễn Văn B}       
+\end{tabular}
+\end{table}
+\end{declaration}
+
+% Tóm tắt LV ================================================
+\begin{abstract}
+	Tóm tắt luận văn ...
+\end{abstract}	
+
+
+% mục lục, danh sách bảng, danh sách hình tự động
+\tableofcontents
+\listoftables
+\listoffigures
+
+
+% danh sách các từ viết tắt =================================
+\begin{abbreviation}
+Dưới đây là danh mục các từ viết tắt được sử dụng trong luận văn.
+\begin{table}[!h]
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{p{3cm} p{11cm}}
+\textbf{Các từ viết tắt} &  \textbf{Định nghĩa} \\
+DL & Deep Learning \\
+YOLO & You Only Look Once \\
+AI & Artificial Intelligence \\
+\end{tabular}
+\end{table}
+\end{abbreviation}	
+
+
+
+\mainmatter
+
+
+%  đánh số trang cho thesis ==================================
+\fancypagestyle{plain}{
+  \fancyhf{} % Clear header and footer
+  \renewcommand{\headrulewidth}{0pt} % Remove header rule
+  \fancyfoot[c]{\thepage} % Centered page number
+}
+\pagestyle{plain} % Apply the page style to all pages
+
+
+% nội dung thesis được viết riêng cho từng chương (chapter)
+\input{Chapter1.tex}
+\input{Chapter2.tex}
+
+% tài liệu tham khảo theo chuẩn IEEE
+% tài liệu tham khảo được khai báo trong file refs.bib
+\bibliographystyle{IEEEtran} % ieeetr
+\bibliography{refs}
+
+\end{document}
