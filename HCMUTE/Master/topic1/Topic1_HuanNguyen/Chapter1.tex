@@ -1,0 +1,226 @@
+\chapter{TỔNG QUAN}
+\section{Đặt vấn đề}
+Trong kỉ nguyên công nghệ 4.0, trí tuệ nhân tạo đã mở ra nhiều hướng nghiên cứu mới trong lĩnh vực khoa học và công nghệ. Nhờ vào sự phát triển liên tục và mang tính cách mạng của lĩnh vực phần cứng, ngày càng nhiều phần cứng có khả năng tính toán siêu việt và giải quyết triệt để các giới hạn còn tồn đọng trong quá khứ. Điều này đã góp phần không nhỏ cho sự phát triển của các lĩnh vực nghiên cứu ứng dụng dựa trên phần cứng nói chung và lĩnh vực trí tuệ nhân tạo nói riêng. Cụ thể hơn, trong các ứng dụng sử dụng thị giác máy tính để xử lý và nhận diện hình ảnh ngày càng phổ biến hơn, phong trào nghiên cứu về lĩnh vực học sâu đang dần phát triển và được ứng dụng hiệu quả trong các lĩnh vực như xe tự hành, y tế, kết nối vạn vật, và các lĩnh vực liên quan về viễn thông.
+
+%%
+Trong lĩnh vực truyền thông không dây, cảm biến phổ (spectrum sensing) được định nghĩa như quá là quá trình giám sát định kì trong một dải tần số cụ thể, nhằm xác định sự hiện diện của các loại sóng viễn thông và đưa ra thông tin dải tần số nào chưa được sử dụng. Khi mà các phương pháp phân bổ tần số truyền thống không thể cung cấp cho nhu cầu truyền tải dữ liệu cao một cách liên tục, điều này dẫn đến tình trạng lãng phí nguồn tài nguyên băng tần mà đáng lẽ ra có thể được sử dụng để cấp phát cho các tín hiệu viễn thông khác như sóng radar, 5G NR, hoặc LTE. Do đó, cảm biến phổ trong hệ thống viễn thông trở thành đề tài thu hút lượng lớn các nhà nghiên cứu nhằm mục đích tăng cường tính hiệu quả trong việc nhận diện phổ tín hiệu. 
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c|p{8cm}}
+        \hline
+        \hline
+        \textbf{Thách Thức} & \textbf{Mô Tả} \\
+        \hline
+        Yêu Cầu Phần Cứng & Sự cần thiết của phần cứng tiên tiến và hiệu quả để thực hiện các nhiệm vụ cảm biến phổ một cách chính xác và nhanh chóng \cite{YucekSpectrumSensing}. \\
+        \hline
+        Vấn Đề Người Dùng Chính Bị Ẩn & Khó khăn trong việc phát hiện người dùng chính có thể bị ẩn hoặc có tín hiệu yếu, dẫn đến kết quả cảm biến không chính xác \cite{YucekSpectrumSensing}. \\
+        \hline
+        Người Dùng Phổ Rộng & Thách thức trong việc cảm nhận người dùng sử dụng các kỹ thuật phổ rộng, có thể gây khó khăn trong việc phát hiện và phân biệt \cite{YucekSpectrumSensing}. \\
+        \hline
+        Hợp Nhất Quyết Định & Sự phức tạp trong việc kết hợp các quyết định từ nhiều nút hoặc thuật toán cảm biến để cải thiện độ chính xác \cite{YucekSpectrumSensing}. \\
+        \hline
+        Bảo Mật & Đảm bảo an ninh của quá trình cảm biến phổ để ngăn chặn các cuộc tấn công ác ý và truy cập trái phép \cite{YucekSpectrumSensing}. \\
+        \hline
+        Tần Số và Thời Gian Cảm Biến & Xác định tần số và thời gian cảm biến tối ưu để cân bằng giữa độ chính xác và tiêu thụ tài nguyên \cite{YucekSpectrumSensing}. \\
+        \hline
+        \hline
+    \end{tabular}
+    \caption{Các thách Thức đặt ra trong lĩnh vực Cảm Biến Phổ}
+    \label{table:challenges}
+\end{table}
+
+Trong quá khứ, có rất nhiều kỹ thuật nhận diện phổ đã được giới thiệu được kể đến như cảm biến phổ dựa trên thuật toán, nhận diện phổ tín hiệu đa chiều, ước lượng kênh, cảm biến kết hợp. Tuy nhiên, các phương pháp này đều gặp những thử thách lớn khi mà phần cứng không thể đáp ứng về mặt hiệu năng, hầu hết các kĩ thuật đều yêu cầu phải lấy mẫu tín hiệu ở tần số cao cũng như độ phân giải cao, điều này đẫn đến yêu cầu về mặt phần cứng cũng cao hơn như là cần sử dụng bộ giải mã từ tín hiệu tương tự sang tín hiệu số với độ phân giải cao hơn, yêu cầu về tốc độ của bộ xử lý để có thể lấy mẫu được tín hiệu ở tần số cao ~\cite{YucekSpectrumSensing}. Theo hướng khác, cảm biến truyền thông không dây có thể được xác định dựa theo việc theo dõi thời lượng và tần số hoạt động ~\cite{kumar2024analysis}. Tuy nhiên, phương pháp này có một sự đánh đổi giữa hiệu suất và các thuật toán cảm nhận. Kể từ khi được giới thiệu, các nhà nghiên cứu đã dành nhiều nỗ lực để giải quyết các vấn đề cảm nhận phổ cải tiến, đối phó với nhiều thách thức và giới thiệu các giải pháp sáng tạo để tăng độ chính xác và hiệu suất trong các mạng truyền thông không dây nhận thức. Hơn nữa, các cuộc khảo sát nổi bật về chủ đề này được giới thiệu trong ~\cite{ali2016advances} và \cite{liyanaarachchi2021optimized}, trong đó hướng nghiên cứu và các giải pháp dựa trên máy học cho cảm nhận phổ thông minh được nghiên cứu và thảo luận một cách toàn diện.
+
+
+
+
+\section{Các nghiên cứu liên quan}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{c|p{8cm}}
+        \hline
+        \hline
+        \textbf{Nghiên cứu liên quan}  & \textbf{Hạn chế} \\
+        \hline
+        DeepLabV3+ \cite{nguyen2023accurate} & Trong đề tài nghiên cứu này, tác giả đã đưa ra được mô hình mạng học sâu nâng cấp từ mô hình DeepLabV3++ với độ chính xác nhận diện phổ trên $98\%$. Tuy nhiên chỉ duy trì được độ chính xác cao khi tín hiệu đầu vào có mức nhiễu SNR lớn hơn $60$ dB. \\
+        \hline
+        ConvNet \cite{huynhthe2023intelligence} & Trong đề tài nghiên cứu về tăng cường nhận diện phổ, tác giả Huỳnh Thế Thiện đã đưa ra cải tiến mạng học sâu ConvNet. Tuy nhiên độ chính xác của mạng học sâu khi nhận tín hiệu đầu vào với mức nhiễu SNR thấp thì không đáng kể. \\
+        \hline
+        \hline
+    \end{tabular}
+    \caption{Các nghiên cứu liên quan}
+    \label{table:relatedResearch}
+\end{table}
+
+Trong những năm gần đây, nhiều công trình về truyền thông không dây nhận thức và mạng lưới radio đã được giới thiệu nhằm nâng cao hiệu suất cảm nhận. Nói chung, cảm nhận dựa trên bộ đo năng lượng là một phương pháp phổ biến trong cảm nhận phổ vì nó cung cấp ít tính toán và độ phức tạp trong việc triển khai, cảm nhận dựa trên hình dạng sóng tăng cường hiệu suất cảm nhận, và cảm nhận dựa trên chu kỳ dành cho việc phát hiện và khớp bộ lọc với các tín hiệu của người dùng chính. Tuy nhiên, một số phương pháp học sâu (DL- deep learning) sáng tạo đã được giới thiệu để giải quyết hiệu suất cảm nhận phổ.
+
+
+
+Việc áp dụng mạng nơ-ron tích chập để phân loại hình dạng sóng được cải thiện bởi tác giả Huỳnh Thế Thiện \cite{huynh2024improved}, công trình \cite{huynhthe2023intelligence} giới thiệu một kiến trúc DL sáng tạo để cải thiện tỷ lệ dự đoán cảm nhận phổ cho tín hiệu 5G NR và LTE. Các công trình khác sử dụng deeplabv3+ \cite{nguyen2023accurate} và DetectNet \cite{gao2019deep} để tăng độ chính xác cho cảm nhận phổ. Tuy nhiên, trong khi các thuật toán cảm nhận có sự đánh đổi giữa hiệu suất phần cứng và độ phức tạp tính toán, các mô hình DL cung cấp các tham số cao hơn để đạt được một mức độ chính xác cao đòi hỏi tài nguyên phần cứng đáng kể.
+
+
+
+\section{Lý do chọn đề tài nghiên cứu}
+Lý do chọn đề tài này phản ánh sự nhận thức sâu sắc về vai trò quan trọng của trí tuệ nhân tạo và các công nghệ liên quan trong kỷ nguyên công nghệ 4.0. Trong một thời đại mà công nghệ đang phát triển mạnh mẽ và mang lại nhiều tiềm năng mới, việc tận dụng trí tuệ nhân tạo để giải quyết các vấn đề phức tạp là một hướng nghiên cứu cực kỳ hấp dẫn.
+
+Cụ thể, việc áp dụng trí tuệ nhân tạo trong cảm biến phổ (spectrum sensing) trong hệ thống truyền thông không dây là một lựa chọn đáng chú ý. Điều này là do cảm biến phổ đóng vai trò quan trọng trong việc giám sát và quản lý tài nguyên tần số một cách hiệu quả, đặc biệt là trong bối cảnh ngày càng tăng của việc sử dụng tần số để hỗ trợ các dịch vụ truyền thông đa dạng như 5G NR, LTE, và các ứng dụng khác.
+
+Bằng cách áp dụng các phương pháp và công nghệ mới nhất trong trí tuệ nhân tạo và học sâu, ta có thể nâng cao khả năng cảm nhận và quản lý tài nguyên tần số, từ đó tối ưu hóa việc sử dụng và phân bổ tài nguyên một cách thông minh và hiệu quả. Việc này không chỉ giúp giảm thiểu lãng phí tài nguyên, mà còn tạo ra cơ hội phát triển mới trong các lĩnh vực ứng dụng của truyền thông không dây.
+
+Do đó, việc nghiên cứu và phát triển các phương pháp cảm biến phổ thông minh và hiệu quả là một đề tài rất đáng quan tâm và có tiềm năng ứng dụng cao trong thời đại hiện nay.
+
+
+\section{Mục tiêu và nhiệm vụ của nghiên cứu}
+Trong đề tài này này, tác giả khai thác các kỹ thuật học sâu để giải quyết các nhiệm vụ cảm nhận và đề xuất một kiến trúc DL sáng tạo dựa trên U-net, được gọi là Spectrum Sensing Network (SpecSenseNet), giúp giảm đáng kể độ phức tạp mạng và nâng cao hiệu suất cảm nhận cho tín hiệu 5G NR và LTE \cite{ronneberger2015u,zhou2019Unet++}.
+
+Với U-net là một mạng nơ-ron tích chập đầy đủ cho phân đoạn hình ảnh ngữ nghĩa hiệu quả, nó được thiết kế với một bộ mã hóa-giải mã song song và được kết nối với nhau thông qua các kết nối bỏ qua. Gần đây, U-net++ và các mô hình biến thể khác đã cho thấy sự cải thiện đáng kể về độ chính xác của phân đoạn; tuy nhiên, những mô hình này tiêu tốn bộ nhớ lớn và có chi phí tính toán đắt đỏ, không phù hợp cho các thiết bị có tài nguyên hạn chế. Để giảm độ phức tạp mạng mà không làm giảm độ chính xác của phân đoạn, tác giả giới thiệu SpecSenseNet, trong đó kiến trúc của nó tích hợp các depthwise separable convolutions~\cite{CholletXception} (DSC) và recurrent residual convolution~\cite{AlomNuclei, he2016deep, aghalari2021brain} (RRC) phần vào từng lớp của đường dẫn mã hóa và giải mã. Mặt khác, các mô-đun Atrous Spatial Pyramid Pooling (ASPP)~\cite{ChenAtrous} được điều chỉnh để tăng cường việc học đặc điểm liên quan ở nhiều tỷ lệ khác nhau.
+
+Tóm lại, trong đề tài này chủ yếu đóng góp vào hai điểm chính sau:
+
+\begin{itemize}
+\item Giải quyết vấn đề cảm biến phổ cho các vấn đề về 5G NR và LTE, đồng thời sử dụng các phương pháp DL để giải quyết vấn đề cảm biến phổ.
+\item Giới thiệu kiến trúc SpecSenseNet cải tiến dựa trên U-net giúp giảm đáng kể độ phức tạp của mạng và nâng cao hiệu suất cảm biến cho tín hiệu 5G NR và LTE.
+\end{itemize}
+
+\section{Phương pháp nghiên cứu}
+Trong đề tài này, tác giả chọn phương pháp nghiên cứu khoa học phân tích tổng kết dựa trên kinh nghiệm và thực nghiệm thông qua việc mô phỏng bằng công cụ MatLab. Việc này mang lại một cơ sở vững chắc để hiểu rõ hơn về hiệu suất và tính khả thi của mô hình đề xuất.
+
+\begin{itemize}
+    \item Phương pháp phân tích và đánh giá dựa trên kinh nghiệm:
+    \begin{itemize}
+        \item Đánh giá độ hiệu quả và so sánh các mô hình DL trong bài toán phân loại vật thể dựa trên việc phân vùng điểm ảnh.
+        \item Dựa vào các kết quả đã phân tích được trên các mô hình DL trước đó, tác giả tiến hình phân tích về ưu nhược điểm của các mô hình DL, đánh giá các điểm chưa được tối ưu và đề suất ra các phương pháp mới để thiết kế lại mô hình DL sao cho tăng tối đa tốc độ tính toán và đạt được sự chính xác cao.
+    \end{itemize}
+    \item Phương pháp thực nghiệm dựa trên mô phỏng sử dụng công cụ MatLab:
+    \begin{itemize}
+        \item Tiến hành thiết kế lại các mô hình DL đã được giới thiệu trước đó trên công cụ mô phỏng MatLab và đánh giá hiệu năng của từng mô hình.
+        \item Phân tích ưu nhược điểm giữa các mô hình và đưa ra cải tiến đổi mới trong thiết kế mô hình DL nhằm tăng hiệu suất của mô hình DL dựa trên các phương pháp thiết kế mạng DL tiên tiến.
+        \item Tiến hành đánh giá mô hình đề suất dựa trên tập dữ liệu phổ tín hiệu được sinh ra từ công cụ MatLab với tỉ lệ nhiễu cao nhằm đánh giá độ hiệu quả của mô hình đề suất, cùng với đó so sánh với các mô hình trước đó.
+    \end{itemize}
+\end{itemize}
+
+\section{Bố cục chuyên đề 1}
+
+Báo cáo chuyên đề 1 sẽ bao gồm 4 chương:
+
+\begin{itemize}
+    \item Chương 1: Tổng Quan
+    \item Chương 2: Cơ sở lý thuyết
+    \item Chương 3: Giới thiệu mạng học sâu ứng dụng trong phân vùng ảnh
+    \item Chương 4: Kết luận và định hướng phát triển cho chuyên đề 2
+\end{itemize}
+
+
+% \section{Giới thiệu}
+% Giới thiệu được viết tại đây ... 
+% \subsection{Giới thiệu về AI}
+% AI là ... 
+% \subsubsection{Giới thiệu về ML}
+% ML là machine learning~\cite{zhu2022}... 
+% \section{Mục tiêu}
+% Mục tiêu của đề tài ...
+
+% \section{Tình hình nghiên cứu}
+% Cách để trích dẫn bài báo xuất bản trong tạp chí~\cite{huynhthe2021}, bài báo được trình bài tại hội nghị~\cite{said2014biometric} và đường link của một trang web~~\cite{IoTDesignPro}
+
+% \section{Phương pháp nghiên cứu}
+% Để đạt được mục tiêu của đề tài, tôi sử dụng các phương pháp thu thập số liệu, thực nghiệm và phân tích tổng kết kinh nghiệm. 
+% \begin{itemize}
+%     \item Phương pháp thu thập số liệu:
+%     \begin{itemize}
+%         \item Sử dụng phương pháp quan sát: Tôi tiến hành quan sát trực ...
+%         \item Tiến hành cuộc phỏng vấn: Tôi tiến hành cuộc phỏng vấn ...
+%     \end{itemize}
+%     \item Phương pháp thực nghiệm: 
+%     \begin{itemize}
+%         \item Thiết kế và triển khai hệ thống: Tôi tiến hành thiết kế và triển khai ...
+%         \item Tiến hành thử nghiệm: Tôi thực hiện các bài kiểm tra và thử nghiệm hệ thống ...
+%     \end{itemize}    
+%     \item Phương pháp phân tích tổng kết kinh nghiệm: 
+%     \begin{itemize}
+%         \item Đánh giá hiệu quả: Tôi tiến hành đánh giá hiệu quả ...
+%         \item Phân tích dữ liệu: Tôi phân tích dữ liệu ...
+%         \item Tổng kết kinh nghiệm: Dựa trên kết quả phân tích, tôi tổng kết kinh nghiệm ...
+%     \end{itemize}
+% \end{itemize}
+
+% \section{Bố cục nội dung}
+% Báo cáo đồ án môn học 1 của tôi sẽ bao gồm 5 chương:
+% \begin{itemize}
+%     \item Chương 1: Tổng quan
+%     \item Chương 2: Cơ sở lý thuyết
+%     \item Chương 3: Thiết kế hệ thống
+%     \item Chương 4: Kết quả
+%     \item Chương 5: Kết luận và hướng phát triển.
+% \end{itemize}
+
+
+
+
+% \begin{figure}[!t]
+% 	\centering
+% 	\includegraphics[width=87.5mm]{hcmutelogo.png}
+% 	\caption{SPWVD-TFIs of radar and communication waveform types.}
+% 	\label{fig_example}
+% \end{figure}
+
+% \section{Yêu cầu và mục tiêu của đề tài}
+
+% \subsection{Yêu cầu}
+
+% Nghiên cứu thuật toán phân loại tin nhắn rác.
+
+% Tạo ứng dụng chặn tin nhắn rác trên điện thoại thông minh (Android)
+
+% \subsection{Mục tiêu}
+
+% \subsubsection{Về kiến thức}
+
+% Phân tích, giải quyết yêu cầu bài toán phân loại tin nhắn rác
+
+% Nắm vững các thuật toán phân loại sử dụng
+
+% Nắm các kỹ thuật xử lý văn bản: tách token, tính xác suất các token,\ldots
+
+% Nắm các kiến thức lập trình di động (Android)
+
+% \subsubsection{Về sản phẩm}
+
+% \begin{table}[!t]
+% \footnotesize
+% \caption{Summary of Performance Comparison.}
+% \begin{tabular}{@{}l r r r@{}}
+% \hline
+% \multirow{1}{*}{Networks}	& Size (params.) & Speed (ms) & Acc. ($\%$)  \\ \hline
+% Lin~\textit{et al.}~\cite{lin2020unknown}	&$	1.4\mathrm{M}	$&$	0.0390	$&$	87.66	$\\
+% Shen~\textit{et al.}~\cite{shen2022radar}	&$	6.1\mathrm{M}	$&$	0.0384	$&$	87.62	$\\
+% % Huynh-The~\textit{et al.}~\cite{huynhthe2022racomnet}	&$	315\mathrm{K}	$&$	0.0536	$&$	89.91	$\\
+% Huynh-The~\textit{et al.}~\cite{huynhthe2022racomnet}	&$	315\mathrm{K}	$&$	0.0586	$&$	89.91	$\\
+% MobileNetv2~\cite{sandler2018mobilenetv2}	&$	2.2\mathrm{M}	$&$	0.0621	$&$	87.92	$\\
+% ResNet50~\cite{he2016deep}	&$	23.5\mathrm{M}	$&$	0.0683	$&$	87.34	$\\
+% Inception-V3~\cite{szegedy2016inception}	&$	21.8\mathrm{M}	$&$	0.1059	$&$	89.94	$\\
+% EfficientNetb0~\cite{tan2019efficientnet}	&$	4.0\mathrm{M}	$&$	0.0823	$&$	89.47	$\\ 
+% Sim-RadComNet	&$	180\mathrm{K}		$&$	0.1055	$&$	87.46	$\\
+% Reg-RadComNet	&$	6.1\mathrm{M}		$&$	0.1270	$&$	89.47	$\\ \hline
+% RadComNet ($2$ RSA modules)	&$	102\mathrm{K}		$&$	0.0602	$&$	82.85	$\\
+% RadComNet ($3$ RSA modules)	&$	140\mathrm{K}		$&$	0.0644	$&$	86.85	$\\
+% RadComNet ($4$ RSA modules)	&$	178\mathrm{K}		$&$	0.0679	$&$	89.87	$\\
+% RadComNet ($5$ RSA modules)	&$	216\mathrm{K}		$&$	0.0712	$&$	90.56	$\\
+% RadComNet ($6$ RSA modules)	&$	254\mathrm{K}		$&$	0.0744	$&$	90.89	$\\
+% \hline
+% \end{tabular}
+% \label{tab_compare}
+% \end{table}
+
+% Tối ưu hóa bộ lọc, ứng dụng
+
+% Nắm được quy trình phát triển sản phẩm: phân tích - thiết kế - hiện thực - kiểm tra.
+
+% Phát triển ứng dụng thực tế, hướng sử dụng, tương tác.
+
+% \section{Bố cục của luận văn}
+
+
+
